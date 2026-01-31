@@ -62,7 +62,7 @@ c.execute("SELECT * FROM admin")
 if not c.fetchone():
     c.execute(
         "INSERT INTO admin VALUES (?, ?)",
-        ("admin", hash_password("admin123"))
+        ("admin", hash_password("16F735_eg"))
     )
     conn.commit()
 
